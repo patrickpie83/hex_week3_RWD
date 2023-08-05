@@ -1,0 +1,144 @@
+.location{
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+
+.location h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+    margin-bottom: 33px;
+}
+
+.fz-24{
+    font-size: 24px;
+}
+
+.storeListborder{
+    margin-left: 16px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+    margin-bottom: 41px;
+}
+
+.storeListborder p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #495057;
+    margin-right: 137px;
+}
+
+
+
+
+
+
+
+
+.locationContenttext{
+    width: 40%;
+}
+
+
+.locationContenttextStore{
+    background-image: url(../images/storepage-1.png);
+    height: 224px;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.contentTextborder{
+    border: 1px solid #00000020;
+}
+.contentTextborder h3{
+    font-size: 24px;
+    margin: 8px auto 8px 24px;
+}
+.contentTextborder ul{
+    border-top: 1px solid #00000020;
+    padding:16px 24px;
+    
+    li:not(:last-child){
+        margin-bottom: 8px;
+    }
+
+    .material-icons-outlined{
+        width: 20px;
+        height: 20px;
+        line-height: 30px;
+    }
+
+    p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+.locationMap{
+	background-image: url(../images/location-1.png);
+	width: 57%;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+@media(max-width:991px){
+    .locationContent{
+        flex-wrap: wrap;
+    }
+
+    .locationContenttext{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .locationMap{
+        height: 414px;
+        width: 100%;
+        margin-top: 24px;
+    }
+    
+    .locationContenttextStore{
+        width: 48%;
+    }
+    .contentTextborder{
+        width: 48%;
+    }
+
+
+}
+
+
+@media(max-width:767px){
+    .location{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+
+
+    .chooseStore>p{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .storeListborder p{
+        font-size: 18px;
+    }
+
+
+
+
+    .locationContenttext{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .locationContenttextStore{
+        width: 100%;
+    }
+    .contentTextborder{
+        width: 100%;
+    }
+}

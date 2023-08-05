@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./layout/htmlhead'); -%>
+  </head>
+
+
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="location container">
+      <h2>門市據點</h2>
+
+      <div class="chooseStore d-flex">
+        <p class="fz-24">選擇分店</p>
+
+        <div class="storeListborder d-flex">
+          <p>台北中山旗艦店</p>
+          <span class="material-icons-outlined">
+            arrow_drop_down
+          </span>
+        </div>
+
+      </div>
+
+
+      <div class="locationContent  d-flex jc-sb">
+        
+        <div class="locationContenttext">
+
+          <div class="locationContenttextStore">
+          </div>
+          
+          <div class="contentTextborder">
+            <h3>台北中山旗艦店</h3>
+            <ul>
+              <li class="d-flex">
+                <div class="material-icons-outlined">
+                  phone
+                </div>
+                <p>電話：(02)000-1234</p>
+              </li>
+
+              <li class="d-flex">
+                <div class="material-icons-outlined">
+                  schedule
+                </div>
+                <p>營業時間：10:00-21:00</p>
+              </li>
+              
+              <li class="d-flex">
+                <div class="material-icons-outlined">
+                  place
+                </div>
+                <p>地址：台北市中山區南京東路25巷2-1號</p>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+
+
+        <div class="locationMap">
+        </div>
+
+
+
+
+        
+      </div>
+
+    </div>
+
+
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -1,23 +1,5 @@
 
-*,*::before,*::after{
-    box-sizing: border-box;
-}
 
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-a{
-    text-decoration: none;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
-}
-
-p{
-    line-height: 1.5;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
-}
 
 a:hover{
     opacity: 0.7;
@@ -127,7 +109,6 @@ a:hover{
     color: #FFFFFF;
     line-height: 1.5;
     font-size: 20px;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 
@@ -137,21 +118,18 @@ a:hover{
     line-height: 1.5;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 .fz-36_white{
     color: #FFFFFF;
     line-height: 1.5;
     font-size: 36px;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 .fz-36_red{
     color: #650300;
     line-height: 1.5;
     font-size: 36px;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 
@@ -161,7 +139,6 @@ a:hover{
     color: #650300;
     text-align: center;
     font-weight: bold;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 .fz48_red_italic{
@@ -169,7 +146,6 @@ a:hover{
     line-height: 1.5;
     font-size: 48px;
     font-weight: bold;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
     font-style: italic;
 }
 
@@ -178,7 +154,6 @@ a:hover{
     line-height: 1.5;
     font-size: 48px;
     font-weight: bold;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 .fz-64_red{
@@ -186,7 +161,6 @@ a:hover{
     line-height: 1.5;
     font-size: 64px;
     font-weight: bold;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 
 }
 
@@ -515,7 +489,6 @@ a:hover{
 .recommend p{
     line-height: 1.5;
     font-size: 14px;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 
@@ -558,7 +531,6 @@ a:hover{
 .contactNotice{
     font-size: 20px;
     line-height: 1.5;
-    font-family: 'Noto Sans TC', 'Roboto',sans-serif;
 }
 
 .contactInfo{
@@ -660,17 +632,13 @@ a:hover{
 }
 
 .socialIcon{
-    width: 208px;
+    width: 25%;
 }
 
 .copyright{
     border-top: 1px solid #FFFFFF;
     padding-top: 32px;
     padding-bottom: 32px;
-}
-
-.copyright p{
-    font-family: 'Roboto',sans-serif;
 }
 
 .law{
@@ -719,5 +687,13 @@ a:hover{
 
     .size-36{
         font-size: 18px;
+    }
+
+    .socialIcon{
+        width: 88px;
+    }
+
+    .socialIcon .w-48{
+        width: 24px;
     }
 }
